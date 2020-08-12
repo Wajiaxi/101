@@ -1,2 +1,21 @@
-第一个测试文件
-2
+本地仓库
+1)创建文件夹
+2)初始化git仓库 
+	git init
+3)向仓库中添加文件
+	创建文件
+	git add filename
+	git commit -m "Tips"
+4)修改仓库中文件
+	通过windows修改过之后重复3
+5)删除仓库中文件
+	windows删除
+	git rm filename
+	git commit -m "Tips"
+
+远程仓库
+1)克隆操作
+	将远程仓库复制到本地 git clone 仓库地址
+2)将本地仓库同步到远程仓库
+	git push
+	git push origin master
